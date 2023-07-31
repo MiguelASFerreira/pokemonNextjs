@@ -1,0 +1,28 @@
+.about {
+    width: 1474px; 
+    height: 100%;
+    margin: 30px;
+    border: 1px solid #000;
+    background-color: #fff; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.2); 
+}
+
+.pokedex {
+    display: flex;
+    margin: 10px;
+}
+
+.pokemonDados {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.pokemonDadosShiny {
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to top, red, orange, yellow, green, blue, violet, #FF1493, #800080, #00CED1) 1;
+}

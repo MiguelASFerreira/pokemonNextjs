@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    width: 200px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-value {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .hp .progress-value {
+    background-color: #4caf50;
+  }
+  
+  .attack .progress-value {
+    background-color: #f44336;
+  }
+  
+  .defense .progress-value {
+    background-color: #2196f3;
+  }
+  
+  .special-attack .progress-value {
+    background-color: #ff9800;
+  }
+  
+  .special-defense .progress-value {
+    background-color: #9c27b0;
+  }
+  
+  .speed .progress-value {
+    background-color: #ff5722;
+  }
+  
+  .progress-value::after {
+    content: attr(value);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+  }
