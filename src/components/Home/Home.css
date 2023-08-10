@@ -1,3 +1,7 @@
+.principal {
+    text-align: center;
+}
+
 .home {
     display: flex;
     flex-wrap: wrap;
@@ -6,3 +10,31 @@
     justify-content: center;
     margin: 10px 0;
 }   
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  
+  .pagination button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:hover {
+    background-color: #ff9900;
+  }
+  

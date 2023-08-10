@@ -46,7 +46,7 @@ const CardPokemon = ({pokemon}: any) => {
           default:
             return '#68A090';  
         }
-      }
+  }
   return (
     <Link  href={`/about/${pokemon.id}`} style={{backgroundColor: cardColor(pokemon.types[0].type.name)}} className='card'>
         <div >
